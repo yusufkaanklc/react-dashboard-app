@@ -1,0 +1,9 @@
+.dashboard-content-left {
+  padding: 1em;
+  width: 70%;
+}
+@media screen and (max-width: 1024px) {
+  .dashboard-content-left {
+    padding: 0.5em;
+  }
+}

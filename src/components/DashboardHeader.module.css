@@ -1,0 +1,75 @@
+.dashboard-header-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1em 0;
+}
+.navbar-button {
+  width: 5%;
+  transition: ease 0.3s;
+}
+.navbar-button:hover {
+  opacity: 0.6;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.header-content h3 {
+  margin: 0;
+}
+.header-text {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+.user-box {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+.user-box i {
+  position: relative;
+  top: 4px;
+  margin-right: 0.5em;
+  font-size: 25px;
+}
+.user-name {
+  margin: 0;
+}
+@media screen and (max-width: 1280px) {
+  .dashboard-header-box {
+    padding: 0.5em;
+  }
+  .header-text {
+    font-size: 1.5rem;
+  }
+  .user-box i {
+    font-size: 20px;
+    top: 2px;
+  }
+  .user-name {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dashboard-header-box {
+    padding: 0.5em;
+  }
+  .navbar-button i {
+    font-size: 10px;
+  }
+  .header-text {
+    font-size: 1rem;
+  }
+  .user-box i {
+    font-size: 15px;
+    top: 2px;
+  }
+  .user-name {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.dashboard-box {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgb(240, 239, 239);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 1em;
+}
+@media screen and (max-width: 1024px) {
+  .dashboard-box {
+    padding: 0.5em;
+  }
+}
