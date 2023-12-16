@@ -1,6 +1,6 @@
 # Exam Application With React
 
-React.js, Bootstrap and react-charts library were used in this project.
+React.js, Bootstrap and React-charts Library were used in this project.
 
 ## Follow the steps for installation
 
